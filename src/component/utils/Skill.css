@@ -1,0 +1,55 @@
+.skill_box {
+  min-height: 100vh;
+}
+
+.skill_box > span {
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  color: gray;
+}
+.skill_box > h3 {
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  color: rgb(23, 23, 23);
+  margin-bottom: 10px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.frontend_skill_box,
+.backend_skill_box,
+.database_skill_box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.skill_item_box {
+  height: 60px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  box-shadow: 0px 0px 1px rgb(166, 166, 166);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: "Outfit", sans-serif;
+  color: rgb(62, 62, 62);
+  position: relative;
+}
+.skill_item_box > span {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  height: 31px;
+  width: 31px;
+  border: 1px solid rgba(0, 0, 0, 0.138);
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+}

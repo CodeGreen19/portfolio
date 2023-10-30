@@ -1,0 +1,99 @@
+.contact_box {
+  /* background-color: antiquewhite; */
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+.contact_box > span {
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  color: gray;
+  margin: 10px 0;
+}
+.contact_box > h3 {
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  margin: 10px 0;
+  font-weight: bolder;
+}
+.contact_info_box {
+  display: flex;
+}
+.contact_info > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  color: gray;
+  margin: 15px 0;
+  border-bottom: 1px solid #00000024;
+}
+.contact_info > div > span {
+  height: 80px;
+  width: 80px;
+  box-shadow: 0px 0px 1px rgb(124, 124, 124);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.send_message_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.send_message_box > div,
+.send_message_box > div {
+  position: relative;
+}
+.send_message_box > div > input,
+.send_message_box > div > textarea {
+  padding: 15px 10px;
+  padding-left: 30px;
+  margin: 5px 0;
+  outline: none;
+  width: 500px;
+  font-size: 1rem;
+  border: 1px solid rgba(76, 76, 76, 0.195);
+  font-family: "Tajawal", sans-serif;
+  overflow: visible;
+  position: relative;
+}
+.send_message_box > div > textarea {
+  padding-left: 30px !important;
+  padding-top: 15px !important;
+}
+.send_message_box > div > input::placeholder,
+.send_message_box > div > textarea::placeholder {
+  letter-spacing: 0.3px;
+  font-family: "Tajawal", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.send_message_box > div > textarea::placeholder {
+  transform: translateX(-5px);
+}
+.send_message_box > div > svg {
+  position: absolute;
+  left: 10px;
+  top: 25px;
+  font-size: 1rem;
+  color: tomato;
+  z-index: 10;
+}
+.send_message_box > div > textarea {
+  padding: 5px;
+  resize: none;
+}
+.send_message_box > button {
+  align-self: flex-end;
+  margin: 10px 0;
+  letter-spacing: 2px;
+  background-color: white;
+  border: 1px solid rgba(76, 76, 76, 0.195);
+  padding: 10px 15px;
+}

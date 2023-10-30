@@ -1,0 +1,62 @@
+.projects_main_box {
+  min-height: 100vh;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.projects_main_box > span {
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  color: gray;
+}
+.projects_main_box > h3 {
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.projects_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects_show_box {
+  height: 280px;
+  width: 280px;
+  border: 2px solid rgba(153, 153, 153, 0.116);
+  margin-right: 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.projects_show_box > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  font-family: "Tajawal", sans-serif;
+  position: absolute;
+  bottom: 10px;
+}
+.projects_show_box > button:nth-child(2) {
+  left: 10px;
+}
+.projects_show_box > button:last-child {
+  right: 10px;
+}
+.projects_show_box > button > svg {
+  margin-right: 5px;
+  font-size: 1rem;
+}
+
+.image_box {
+  width: 100%;
+  height: 80%;
+}
+.image_box > img {
+  width: 100%;
+}

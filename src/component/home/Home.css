@@ -1,0 +1,11 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.all_content {
+  width: 76%;
+  padding: 40px;
+  padding-right: 10%;
+}
